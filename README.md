@@ -12,7 +12,7 @@ An express note taking app that serves static html files and expose api routes t
 
 ## App URL
 
-[go](https://note-taker-meena.herokuapp.com/){target="_blank" rel="noopener"}
+[Note Taking App](https://note-taker-meena.herokuapp.com/)
 
 ## Screenshots
 
