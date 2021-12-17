@@ -104,6 +104,6 @@ app.delete('/api/notes/:id', (req, res) => {
 
 
 // start the server by listening to a port
-app.listen(3000, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
   console.log('App running at port:3000')
 })
