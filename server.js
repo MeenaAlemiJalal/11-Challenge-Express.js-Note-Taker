@@ -2,7 +2,6 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs')
 const {v4: uuid4} = require('uuid');
-const morgan = require('morgan')
 const Note = require('./lib/Note')
 
 
@@ -12,7 +11,6 @@ const app = express()
 
 // middlewares
 app.use(express.json())
-app.use(morgan('dev'))
 
 // This specify the directory of static files that needs to be served
 app.use(express.static('public'))
